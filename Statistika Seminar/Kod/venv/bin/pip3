@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/ile123/Desktop/backup/Folderi/STVARI VEZANO UZ FAKS/pdf-ovi za predmete/9. Semestar 2023/Statistika/Seminar/Kod/venv/bin/python" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
